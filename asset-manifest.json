@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Compteur_React/static/css/main.163f2941.css",
+    "main.js": "/Compteur_React/static/js/main.6d077a4d.js",
+    "index.html": "/Compteur_React/index.html",
+    "main.163f2941.css.map": "/Compteur_React/static/css/main.163f2941.css.map",
+    "main.6d077a4d.js.map": "/Compteur_React/static/js/main.6d077a4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.163f2941.css",
+    "static/js/main.6d077a4d.js"
+  ]
+}
