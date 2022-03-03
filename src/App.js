@@ -31,7 +31,7 @@ const [count,setCount]=useState(0);
   </Col> 
   
   <Col xs='2' xl='1' className='text-center'>
-    <Button color='secondary' onClick={()=>handlw(5)}>Plus</Button>
+    <Button color='secondary' onClick={()=>handlw(5)}>test</Button>
   </Col> 
   
 
