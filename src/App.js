@@ -4,6 +4,11 @@ import { useState,useEffect } from 'react';
 import './App.css';
 
 
+function handlw(eevent){
+  console.log(eevent)
+
+}
+
 function App() {
 
 const [count,setCount]=useState(0);
@@ -25,6 +30,11 @@ const [count,setCount]=useState(0);
     <Button color='primary' onClick={()=>setCount(count+1)}>Plus</Button>
   </Col> 
   
+  <Col xs='2' xl='1' className='text-center'>
+    <Button color='secondary' onClick={()=>handlw(5)}>Plus</Button>
+  </Col> 
+  
+
   <Col xs='4'  >
   <Row>
     <Input className='text-center' value={count} onChange={()=>{}}></Input>
