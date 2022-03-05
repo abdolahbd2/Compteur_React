@@ -21,7 +21,7 @@ const [count,setCount]=useState(0);
 
   return (
     <Container className='container'>
-  <Row style={{height:"100vh"}} className='justify-content-center align-items-center'>   
+  <Row style={{height:"100vh"}} className='d-flex justify-content-center align-items-center'>   
   <Col xs='2' xl='1' className='text-center'>
     <Button color='primary' onClick={()=>setCount(count+1)}>Plus</Button>
   </Col> 
